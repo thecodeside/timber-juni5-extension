@@ -54,7 +54,7 @@ allprojects {
 
 ```groovy
 dependencies {
-    testImplementation 'com.github.thecodeside:timber-junit5-extension:1.0'
+    testImplementation 'com.github.thecodeside:timber-junit5-extension:1.0.1'
 }
 ```
 
