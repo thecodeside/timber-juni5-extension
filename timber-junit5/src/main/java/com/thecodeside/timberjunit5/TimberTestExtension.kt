@@ -20,6 +20,7 @@ import java.util.*
  * undesirable.
  *
  * @author TheCodeSide Artur Latoszewski (https://www.thecodeside.com/)
+ * Based on [Timber JUnit-Rule](https://github.com/LachlanMcKee/timber-junit-rule/blob/cff4ac3723dec70b7e87152fe797a6dd2e68d2d0/timber-junit/src/main/java/net/lachlanmckee/timberjunit/TimberTestRule.java)
  */
 class TimberTestExtension constructor(private val rules: Rules = Rules()) : BeforeEachCallback,
     AfterEachCallback {
